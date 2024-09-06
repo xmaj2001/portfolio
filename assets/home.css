@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none!important;
+    color: white;
+    font-family: "DengXian";
+}
+
+:root {
+    --bg-color: rgb(10, 10, 10);
+    --font-size: font-size: 1rem;
+    --font-main: "Varygraphie VF PERSONAL USE ONLY";
+}
+
+body {
+    background-color:rgb(2,2,2);
+    width: 100vw;
+    background-image: url(./img/back_gif\ \(3\).gif);
+    background-repeat: no-repeat;
+    background-blend-mode:luminosity;
+    background-attachment: fixed;
+    /* background-position: -200px 0px; */
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    padding: 35px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+}
+
+.logo {
+    font-family: var(--font-main);
+}
+
+.menu a {
+    padding: 4px;
+    position: relative;
+}
+
+section {
+    padding: 0px 10%;
+    height: 100vh;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text h3 {
+    font-family: var(--font-main);
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(251, 255, 0)!important;
+    text-shadow: 0px 0px 5px yellow;
+}
+
+.hero-text h4 {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.sobre p {
+    color: rgba(245, 245, 245, 0.8);
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.sobre .btn_cv {
+    border: 1px solid yellow;
+    color: yellow;
+}
+
+.sobre .btn_cv:hover {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.socias{
+    width: 100vw;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.socias a:hover{
+   background-color: rgb(0, 0, 0);
+   transform: translateY(-10px);
+   transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 700ms;
+}
+
+.socias i{
+    color: yellow;
+ }

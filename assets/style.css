@@ -1,0 +1,29 @@
+/* Importa os css da plugins aqui */
+/* Importa os css dos plugins aqui */
+@import url(plugins/bootstrap/css/bootstrap.min.css);
+@import url(plugins/w3/w3.css);
+@import url(plugins/animation/animate.min.css);
+/* Fonts */
+@import url(css/font-awesome.min.css);
+
+.primary-text {
+    color: #e9da0e !important;
+    text-shadow: 1px 1px 6px rgb(187, 96, 6);
+}
+
+.primary {
+    background-color: #ffdb10 !important;
+    display: none;
+}
+.btn-primary {
+  background-color: #ffdb10 !important;
+  border-color: #e9da0e;
+  color: black;
+  font-weight: bold;
+}
+@import url(css/boostrap.css);
+/* @import url(css/style.css); */
+::-webkit-scrollbar {
+  display: none;
+}
+
